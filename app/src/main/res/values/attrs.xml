@@ -1,0 +1,153 @@
+<resources>
+    <attr name="rd_style" format="reference"/>
+    <attr name="rd_enable" format="boolean"/>
+    <attr name="tv_fontFamily" format="reference|string"/>
+
+    <declare-styleable name="View">
+        <attr name="android:background"/>
+        <attr name="android:backgroundTint"/>
+        <attr name="android:backgroundTintMode"/>
+        <attr name="android:elevation"/>
+        <attr name="android:fadeScrollbars"/>
+        <attr name="android:fadingEdgeLength"/>
+        <attr name="android:minHeight"/>
+        <attr name="android:minWidth"/>
+        <attr name="android:padding"/>
+        <attr name="android:paddingBottom"/>
+        <attr name="android:paddingEnd"/>
+        <attr name="android:paddingLeft"/>
+        <attr name="android:paddingRight"/>
+        <attr name="android:paddingStart"/>
+        <attr name="android:paddingTop"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:scrollbarDefaultDelayBeforeFade"/>
+        <attr name="android:scrollbarFadeDuration"/>
+        <attr name="android:scrollbarSize"/>
+        <attr name="android:scrollbarStyle"/>
+        <attr name="android:soundEffectsEnabled"/>
+        <attr name="android:textAlignment"/>
+        <attr name="android:textDirection"/>
+        <attr name="android:visibility"/>
+        <attr name="android:layoutDirection"/>
+        <attr name="android:src"/>
+    </declare-styleable>
+
+    <declare-styleable name="RippleView">
+        <attr name="rd_style"/>
+        <attr name="rd_enable"/>
+    </declare-styleable>
+
+    <declare-styleable name="RippleDrawable">
+        <attr name="rd_backgroundColor" format="reference|color"/>
+        <attr name="rd_backgroundAnimDuration" format="reference|integer"/>
+        <attr name="rd_maxRippleRadius" format="reference|dimension|integer">
+            <enum name="match_view" value="0x00000000"/>
+        </attr>
+        <attr name="rd_rippleColor" format="reference|color"/>
+        <attr name="rd_rippleAnimDuration" format="reference|integer"/>
+        <attr name="rd_inInterpolator" format="reference"/>
+        <attr name="rd_outInterpolator" format="reference"/>
+        <attr name="rd_maskType" format="integer">
+            <enum name="rectangle" value="0x00000000"/>
+            <enum name="oval" value="0x00000001"/>
+        </attr>
+        <attr name="rd_rippleType" format="integer">
+            <enum name="touch" value="0x00000000"/>
+            <enum name="wave" value="0x00000001"/>
+        </attr>
+        <attr name="rd_cornerRadius" format="reference|dimension"/>
+        <attr name="rd_topLeftCornerRadius" format="reference|dimension"/>
+        <attr name="rd_topRightCornerRadius" format="reference|dimension"/>
+        <attr name="rd_bottomLeftCornerRadius" format="reference|dimension"/>
+        <attr name="rd_bottomRightCornerRadius" format="reference|dimension"/>
+        <attr name="rd_padding" format="reference|dimension"/>
+        <attr name="rd_leftPadding" format="reference|dimension"/>
+        <attr name="rd_topPadding" format="reference|dimension"/>
+        <attr name="rd_rightPadding" format="reference|dimension"/>
+        <attr name="rd_bottomPadding" format="reference|dimension"/>
+        <attr name="rd_delayClick" format="integer">
+            <enum name="none" value="0x00000000"/>
+            <enum name="untilRelease" value="0x00000001"/>
+            <enum name="afterRelease" value="0x00000002"/>
+        </attr>
+        <attr name="rd_delayRipple" format="reference|integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="Dialog">
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <attr name="di_dimAmount" format="float"/>
+        <attr name="di_backgroundColor" format="color|reference"/>
+        <attr name="di_elevation" format="dimension|reference"/>
+        <attr name="di_maxElevation" format="dimension|reference"/>
+        <attr name="di_cornerRadius" format="dimension|reference"/>
+        <attr name="di_layoutDirection" format="integer">
+            <enum name="ltr" value="0"/>
+            <enum name="rtl" value="1"/>
+            <enum name="locale" value="3"/>
+        </attr>
+        <attr name="di_maxWidth" format="dimension|reference"/>
+        <attr name="di_maxHeight" format="dimension|reference"/>
+        <attr name="di_titleTextAppearance" format="reference"/>
+        <attr name="di_titleTextColor" format="color|reference"/>
+        <attr name="di_actionBackground" format="reference"/>
+        <attr name="di_actionRipple" format="reference"/>
+        <attr name="di_actionTextAppearance" format="reference"/>
+        <attr name="di_actionTextColor" format="color|reference"/>
+        <attr name="di_positiveActionBackground" format="reference"/>
+        <attr name="di_positiveActionRipple" format="reference"/>
+        <attr name="di_positiveActionTextAppearance" format="reference"/>
+        <attr name="di_positiveActionTextColor" format="color|reference"/>
+        <attr name="di_negativeActionBackground" format="reference"/>
+        <attr name="di_negativeActionRipple" format="reference"/>
+        <attr name="di_negativeActionTextAppearance" format="reference"/>
+        <attr name="di_negativeActionTextColor" format="color|reference"/>
+        <attr name="di_neutralActionBackground" format="reference"/>
+        <attr name="di_neutralActionRipple" format="reference"/>
+        <attr name="di_neutralActionTextAppearance" format="reference"/>
+        <attr name="di_neutralActionTextColor" format="color|reference"/>
+        <attr name="di_dividerColor" format="color|reference"/>
+        <attr name="di_dividerHeight" format="dimension|reference"/>
+        <attr name="di_inAnimation" format="reference"/>
+        <attr name="di_outAnimation" format="reference"/>
+        <attr name="di_cancelable" format="boolean"/>
+        <attr name="di_canceledOnTouchOutside" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimePicker">
+        <attr name="tp_backgroundColor" format="color|reference"/>
+        <attr name="tp_selectionColor" format="color|reference"/>
+        <attr name="tp_selectionRadius" format="dimension|reference"/>
+        <attr name="tp_tickSize" format="dimension|reference"/>
+        <attr name="tp_fontFamily" format="string|reference"/>
+        <attr name="tp_textStyle" format="integer">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="bold_italic" value="3"/>
+        </attr>
+        <attr name="tp_textSize" format="dimension|reference"/>
+        <attr name="tp_textColor" format="color|reference"/>
+        <attr name="tp_textHighlightColor" format="color|reference"/>
+        <attr name="tp_animDuration" format="integer|reference"/>
+        <attr name="tp_inInterpolator" format="reference"/>
+        <attr name="tp_outInterpolator" format="reference"/>
+        <attr name="tp_mode" format="integer">
+            <enum name="hour" value="0"/>
+            <enum name="minute" value="1"/>
+        </attr>
+        <attr name="tp_24Hour" format="boolean"/>
+        <attr name="tp_hour" format="integer"/>
+        <attr name="tp_minute" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimePickerDialog">
+        <attr name="tp_headerHeight" format="dimension|reference"/>
+        <attr name="tp_textTimeColor" format="color|reference"/>
+        <attr name="tp_textTimeSize" format="dimension|reference"/>
+        <attr name="tp_am" format="string|reference"/>
+        <attr name="tp_pm" format="string|reference"/>
+        <attr name="tp_leadingZero" format="boolean|reference"/>
+    </declare-styleable>
+
+</resources>

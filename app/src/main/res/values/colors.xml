@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#CAC7CF</color>
+    <color name="header_blue">#694DD2</color>
+    <color name="bottom_grey">#D5D3D9</color>
+    <color name="break_line">#DFDDE4</color>
+    <color name="transparent_black">#ee000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="papertrell_theme">#694DD2</color>   
+    <color name="primaryColorwhite">#FFFFFF</color>
+    <color name="primaryColorpurple">#FF0099</color>
+	<color name="background_tab_pressed">#6633B5E5</color>
+	<color name="tabtext_normal_color">#C0FFFFFF</color>
+    <color name="tabtext_selected_color">#FFFFFFFF</color>
+
+    <color name="colorBasePrimary">#FF03A9F4</color>
+    <color name="colorBasePrimaryDark">#ff0171c9</color>
+    <color name="colorBaseAccent">#FF00E5FF</color>
+    <color name="colorBaseControlNormal">#FF78909C</color>
+    <color name="colorBaseControlActivated">#FF03A9F4</color>
+    <color name="colorBaseSwitchThumbNormal">#FF78909C</color>
+    
+</resources>
